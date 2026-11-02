@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+
+    background-color: white;
+    color: #1f2937;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+
+    margin: 40px auto 0; /* margem da foto do topo */
+}
+
+.cabecalho{
+    background-color: white;
+}
+
+.foto-topo{
+    width: 100%; /* Alinha a faixa azul com a foto do topo */
+    display: block;
+    margin: auto;
+}
+
+.cabecalho {
+    background-color: white;
+}
+
+.menu-principal {
+    background-color: #081A24;
+    width: 100%; /* Alinha a faixa azul com a foto do topo. Conjunto com o width da foto-topo */
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.foto-logo{
+    width: 110px;
+    height: auto;
+    margin-left: 125px;
+}
+
+.menu-lista{
+    margin-right: 15px; 
+    padding: 0;
+    list-style: none;  /* Tira a bolinha de lista */
+}
+
+.menu-lista li{
+    display: inline-block;
+    margin-right: 2px; /* distancia do "portifolio", "about us" e "contact da margem direita da faixa */
+}
+
+.menu-link{
+    display: inline-block;
+    padding: 8px 10px; /* distancia dos elementos do cabeçalho entre si*/
+    color: #0f384c;
+    text-decoration: none;
+
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
